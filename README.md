@@ -1,14 +1,19 @@
 # JS_individual_work_1_Transactions
 
 Console application for working with bank transactions.
+
 Консольное приложение для работы с банковскими операциями.
 
 **1.Инструкции по запуску проекта**
 
 Убедитесь, что у вас установлен Node.js на вашей системе.
+
 Клонируйте репозиторий проекта.
+
 Перейдите в директорию проекта в вашем терминале.
+
 Поместите данные о ваших транзакциях в формате JSON в директорию utils с именем файла transactions.json.
+
 Запустите проект, выполнив node index.js в вашем терминале.
 
 **2.Описание лабораторной работы**
@@ -18,9 +23,11 @@ Console application for working with bank transactions.
 **3.Краткая документация к проекту**
 
 'index.js'
+
 Этот скрипт служит в качестве точки входа в проект. Он читает данные о транзакциях из файла JSON, анализирует их с помощью TransactionAnalyzer и выводит результаты в консоль.
 
 'TransactionAnalyzer.js'
+
 Этот файл определяет класс TransactionAnalyzer, отвечающий за анализ данных о транзакциях. Он предоставляет методы для различных анализов, таких как подсчет общей суммы, получение уникальных типов транзакций, поиск транзакций по дате и т. д.
 
 **4.Примеры использования проекта**
@@ -51,14 +58,23 @@ console.log(
 console.log(analyzer.string(transactionId));
 
 /*
+
 String representation of transaction with ID 97:
+
 transaction_id: 97
+
 transaction_date: 2019-04-07
+
 transaction_amount: 95
+
 transaction_type: debit
+
 transaction_description: Home entertainment purchase
+
 merchant_name: EntertainmentStore456
+
 card_type: Amex
+
 */
 
 ![image](https://github.com/zabudico/JS_individual_work_1_Transactions/assets/112975702/78482f66-9f68-446e-a70c-0280f44834eb)
@@ -79,6 +95,7 @@ card_type: Amex
 **6.Использованные источники**
 
 Документация Node.js: https://nodejs.org/docs/
+
 MDN Web Docs: https://developer.mozilla.org/en-US/
 
 **7.Дополнительные важные аспекты**
