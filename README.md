@@ -55,7 +55,7 @@ console.log(
 console.log(
   `\nСтрока представления транзакции с ID ${transactionId}:`
 );
-console.log(analyzer.string(transactionId));```
+console.log(analyzer.string(transactionId));
 
 /*
 
