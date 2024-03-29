@@ -48,9 +48,7 @@ Console application for working with bank transactions.
 
 Пример 4: Вывод строки представления транзакции по ID
 
-```const transactionId = "97";
-console.log(`\nСтрока представления транзакции с ID ${transactionId}:`);
-console.log(analyzer.string(transactionId));```
+```const transactionId = "97";console.log(`\nСтрока представления транзакции с ID ${transactionId}:`);console.log(analyzer.string(transactionId));```
 
 ![image](https://github.com/zabudico/JS_individual_work_1_Transactions/assets/112975702/78482f66-9f68-446e-a70c-0280f44834eb)
 
