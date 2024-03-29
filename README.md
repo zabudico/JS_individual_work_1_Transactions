@@ -40,22 +40,22 @@ Console application for working with bank transactions.
 
 Пример 2: Подсчет общей суммы
 
-console.log("Общая сумма:", analyzer.calculateTotalAmount()); // Total Amount: 8000
+```console.log("Общая сумма:", analyzer.calculateTotalAmount());``` // Total Amount: 8000
 
 Пример 3: Подсчет общей суммы для определенной даты
 
-console.log(
+```console.log(
   "Общая сумма за 2019-01-01:",
   analyzer.calculateTotalAmountByDate(2019, 1, 1)
-); // Total Amount for 2019-01-01: 100
+); ```// Total Amount for 2019-01-01: 100
 
 Пример 4: Вывод строки представления транзакции по ID
 
-const transactionId = "97";
+```const transactionId = "97";
 console.log(
   `\nСтрока представления транзакции с ID ${transactionId}:`
 );
-console.log(analyzer.string(transactionId));
+console.log(analyzer.string(transactionId));```
 
 /*
 
