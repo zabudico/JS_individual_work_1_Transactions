@@ -44,37 +44,23 @@ Console application for working with bank transactions.
 
 Пример 3: Подсчет общей суммы для определенной даты
 
-console.log(
-  "Общая сумма за 2019-01-01:",
-  analyzer.calculateTotalAmountByDate(2019, 1, 1)
-); // Total Amount for 2019-01-01: 100
+```console.log("Общая сумма за 2019-01-01:",analyzer.calculateTotalAmountByDate(2019, 1, 1)); ```// Total Amount for 2019-01-01: 100
 
 Пример 4: Вывод строки представления транзакции по ID
 
 ```const transactionId = "97";
-console.log(
-  `\nСтрока представления транзакции с ID ${transactionId}:`
-);
-console.log(analyzer.string(transactionId));
+console.log(`\nСтрока представления транзакции с ID ${transactionId}:`);
+console.log(analyzer.string(transactionId));```
 
 /*
-
 String representation of transaction with ID 97:
-
 transaction_id: 97
-
 transaction_date: 2019-04-07
-
 transaction_amount: 95
-
 transaction_type: debit
-
 transaction_description: Home entertainment purchase
-
 merchant_name: EntertainmentStore456
-
 card_type: Amex
-
 */
 
 ![image](https://github.com/zabudico/JS_individual_work_1_Transactions/assets/112975702/78482f66-9f68-446e-a70c-0280f44834eb)
