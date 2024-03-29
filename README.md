@@ -47,7 +47,7 @@ Console application for working with bank transactions.
 ```console.log(
   "Общая сумма за 2019-01-01:",
   analyzer.calculateTotalAmountByDate(2019, 1, 1)
-); ```// Total Amount for 2019-01-01: 100
+);``` // Total Amount for 2019-01-01: 100
 
 Пример 4: Вывод строки представления транзакции по ID
 
