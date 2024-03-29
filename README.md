@@ -35,7 +35,7 @@ Console application for working with bank transactions.
 Пример 1: Получение уникальных типов транзакций
 // в комментариях находиться результат работы кода.
 
-console.log("Unique Transaction Types:", analyzer.getUniqueTransactionType()); 
+```console.log("Unique Transaction Types:", analyzer.getUniqueTransactionType());```
 //  Unique Transaction Types: [ 'debit', 'credit' ]
 
 Пример 2: Подсчет общей суммы
